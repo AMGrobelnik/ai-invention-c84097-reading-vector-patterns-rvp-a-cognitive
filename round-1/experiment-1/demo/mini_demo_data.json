@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "description": "Mini demo dataset for near-duplicate text detection",
+    "num_pairs": 20,
+    "note": "Curated subset for demo - in practice, data is generated synthetically"
+  },
+  "base_texts": [
+    "The quick brown fox jumps over the lazy dog",
+    "Machine learning is a subset of artificial intelligence",
+    "Python is a popular programming language for data science",
+    "Climate change is a pressing global issue that requires action",
+    "The stock market experienced significant volatility this quarter",
+    "Regular exercise and a balanced diet are essential for health",
+    "The internet has revolutionized how we communicate and work",
+    "Renewable energy sources are becoming more cost-effective"
+  ],
+  "test_pairs": [
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox jumps over the very lazy dog",
+      "is_duplicate": true,
+      "pair_id": 0
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset of AI",
+      "is_duplicate": true,
+      "pair_id": 1
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Java is a popular programming language for enterprise",
+      "is_duplicate": false,
+      "pair_id": 2
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global problem requiring action",
+      "is_duplicate": true,
+      "pair_id": 3
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market saw significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 4
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "A sedentary lifestyle and poor diet harm your health",
+      "is_duplicate": false,
+      "pair_id": 5
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The web has changed how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 6
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Solar and wind power are now more affordable",
+      "is_duplicate": false,
+      "pair_id": 7
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "A fast brown fox leaps above the sleepy hound",
+      "is_duplicate": false,
+      "pair_id": 8
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Deep learning is a subset of machine learning",
+      "is_duplicate": false,
+      "pair_id": 9
+    }
+  ]
+}

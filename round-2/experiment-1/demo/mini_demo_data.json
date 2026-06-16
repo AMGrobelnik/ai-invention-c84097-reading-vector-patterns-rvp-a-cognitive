@@ -1,0 +1,89 @@
+{
+  "datasets": [
+    {
+      "dataset": "quora_question_pairs",
+      "examples": [
+        {
+          "input": "{\"question1\": \"Why do we like spicy food?\", \"question2\": \"If you like really spicy food, why do you like it?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"How do I learn Python programming?\", \"question2\": \"What is the best way to learn Python?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"What is artificial intelligence?\", \"question2\": \"Can you explain AI and artificial intelligence?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"How to lose weight fast?\", \"question2\": \"What are quick ways to lose weight?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"Why is the sky blue?\", \"question2\": \"What makes the sky appear blue?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"How do the brain structures of orangutans change as they age?\", \"question2\": \"How do the brain structures of spiders change as they age?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"How do I figure this out?\", \"question2\": \"How do I figure out my dream?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"What is the capital of France?\", \"question2\": \"What is the population of Paris?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"How to cook pasta?\", \"question2\": \"What is the best pasta recipe?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"Why do cats purr?\", \"question2\": \"How do dogs communicate?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"What is machine learning?\", \"question2\": \"How does deep learning work?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"How to save money for retirement?\", \"question2\": \"What are the best investment strategies?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"What causes climate change?\", \"question2\": \"How can we reduce carbon emissions?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"How to get a job at Google?\", \"question2\": \"What is it like to work at Google?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"What are the benefits of exercise?\", \"question2\": \"How often should I work out?\"}",
+          "output": "0"
+        },
+        {
+          "input": "{\"question1\": \"What is the meaning of life?\", \"question2\": \"What is the purpose of life?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"How to make a cake?\", \"question2\": \"What is the recipe for making a cake?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"Why is exercise important?\", \"question2\": \"What are the benefits of working out?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"How does the internet work?\", \"question2\": \"Can you explain how the internet functions?\"}",
+          "output": "1"
+        },
+        {
+          "input": "{\"question1\": \"What is the difference between AI and ML?\", \"question2\": \"How are artificial intelligence and machine learning different?\"}",
+          "output": "1"
+        }
+      ]
+    }
+  ]
+}
