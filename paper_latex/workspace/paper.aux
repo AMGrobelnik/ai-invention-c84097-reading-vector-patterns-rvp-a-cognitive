@@ -1,0 +1,103 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{Broder1997}
+\citation{Broder1997,Manku2007}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem Statement}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Why Existing Methods Struggle}{1}{subsection.1.2}\protected@file@percent }
+\citation{Kusner2015}
+\citation{Rayner1998}
+\citation{Kuperman2013}
+\citation{Kuperman2013}
+\citation{Kuperman2013}
+\citation{Sakoe1978}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}A Cognitive-Inspired Approach}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.4}Contributions}{2}{subsection.1.4}\protected@file@percent }
+\citation{Broder1997}
+\citation{Manku2007}
+\citation{Theobald2008}
+\citation{Ukkonen1992}
+\citation{Kusner2015}
+\citation{Reimers2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of the Reading Vector Patterns (RVP) method. (a) Input text is tokenized and each word is mapped to a cognitive load indicator vector (word length, log frequency, POS tag). (b) The resulting reading vector preserves the sequential order of words. (c) Dynamic Time Warping (DTW) aligns the reading vectors of two texts, computing a distance that accounts for local misalignments (inserted/deleted words, word order variations).}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:fig1}{{1}{3}{Overview of the Reading Vector Patterns (RVP) method. (a) Input text is tokenized and each word is mapped to a cognitive load indicator vector (word length, log frequency, POS tag). (b) The resulting reading vector preserves the sequential order of words. (c) Dynamic Time Warping (DTW) aligns the reading vectors of two texts, computing a distance that accounts for local misalignments (inserted/deleted words, word order variations)}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Near-Duplicate Detection}{3}{subsection.2.1}\protected@file@percent }
+\citation{Wei2025}
+\citation{Zhang2021}
+\citation{Ouwehand2021}
+\citation{Kuperman2013}
+\citation{Demberg2008}
+\citation{Vajjala2012}
+\citation{Sakoe1978}
+\citation{Ratanamahatana2005}
+\citation{Marukatat2004}
+\citation{Vajjala2012}
+\citation{Das2009}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Cognitive Load Measurement}{4}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Dynamic Time Warping}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Positioning of Our Work}{4}{subsection.2.4}\protected@file@percent }
+\citation{Kuperman2013}
+\citation{Kuperman2013}
+\citation{Sakoe1978}
+\citation{Salvador2007}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{5}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Reading Vector Representation}{5}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Dynamic Time Warping for Reading Vector Comparison}{5}{subsection.3.2}\protected@file@percent }
+\citation{Salvador2007}
+\citation{Ukkonen1992}
+\citation{Manku2007}
+\citation{Reimers2019}
+\citation{Sharma2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Baseline Methods}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Datasets}{6}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experimental Setup}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Statistics of the Quora Question Pairs (QQP) dataset used for evaluation. (a) Class distribution: 37\% duplicates (130,685 pairs) and 63\% non-duplicates (223,161 pairs) in full dataset. Our experimental split uses 10,000 pairs with 50\% duplicates for balanced evaluation. (b) Question length distribution: average 10.9 words, median 10 words, range 1-52 words. (c) Example question pairs: duplicate pair (`What is the best way to learn Python?', `How should I start learning Python?') and non-duplicate pair (`Why is the sky blue?', `What causes rain?').}}{7}{figure.2}\protected@file@percent }
+\newlabel{fig:fig2}{{2}{7}{Statistics of the Quora Question Pairs (QQP) dataset used for evaluation. (a) Class distribution: 37\% duplicates (130,685 pairs) and 63\% non-duplicates (223,161 pairs) in full dataset. Our experimental split uses 10,000 pairs with 50\% duplicates for balanced evaluation. (b) Question length distribution: average 10.9 words, median 10 words, range 1-52 words. (c) Example question pairs: duplicate pair (`What is the best way to learn Python?', `How should I start learning Python?') and non-duplicate pair (`Why is the sky blue?', `What causes rain?')}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Main Results}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Near-duplicate detection results on QQP test set (4,000 examples). Values are computed at optimal threshold (tuned on validation set).}}{7}{table.1}\protected@file@percent }
+\newlabel{tab:main_results}{{1}{7}{Near-duplicate detection results on QQP test set (4,000 examples). Values are computed at optimal threshold (tuned on validation set)}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Performance comparison of RVP and baseline methods on QQP test set (4,000 examples). (a) ROC curves: Sentence-BERT achieves highest AUC (0.873), followed by MinHash (0.757), Jaccard (0.752), and RVP (0.695). (b) Precision-Recall scatter: Sentence-BERT achieves best balance (F1=0.541), RVP has high recall (0.911) but low precision (0.196). (c) Computational efficiency: RVP (11.1ms/pair) and Jaccard (0.5ms/pair) are faster than Sentence-BERT (67.8ms/pair).}}{8}{figure.3}\protected@file@percent }
+\newlabel{fig:fig3}{{3}{8}{Performance comparison of RVP and baseline methods on QQP test set (4,000 examples). (a) ROC curves: Sentence-BERT achieves highest AUC (0.873), followed by MinHash (0.757), Jaccard (0.752), and RVP (0.695). (b) Precision-Recall scatter: Sentence-BERT achieves best balance (F1=0.541), RVP has high recall (0.911) but low precision (0.196). (c) Computational efficiency: RVP (11.1ms/pair) and Jaccard (0.5ms/pair) are faster than Sentence-BERT (67.8ms/pair)}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Ablation Study}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Ablation study on QQP test set. Feature subsets show that word length is the most informative cognitive feature for near-duplicate detection.}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:ablation}{{2}{9}{Ablation study on QQP test set. Feature subsets show that word length is the most informative cognitive feature for near-duplicate detection}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Analysis of RVP's Errors}{9}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Interpreting the Results}{9}{subsection.5.1}\protected@file@percent }
+\citation{Smith2013}
+\citation{Sakoe1978}
+\citation{Smith2013}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Limitations}{10}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Future Work}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}\protected@file@percent }
+\bibstyle{plainnat}
+\bibdata{references}
+\bibcite{Broder1997}{{1}{1997}{{Broder}}{{}}}
+\bibcite{Das2009}{{2}{2009}{{Das and Smith}}{{}}}
+\bibcite{Demberg2008}{{3}{2008}{{Demberg and Keller}}{{}}}
+\bibcite{Kuperman2013}{{4}{2013}{{Kuperman et~al.}}{{Kuperman, Alter, and Pavlov}}}
+\bibcite{Kusner2015}{{5}{2015}{{Kusner et~al.}}{{Kusner, Sun, Kolkin, and Weinberger}}}
+\bibcite{Manku2007}{{6}{2007}{{Manku et~al.}}{{Manku, Jain, and Sarma}}}
+\bibcite{Marukatat2004}{{7}{2004}{{Marukatat et~al.}}{{Marukatat, Verbeke, and Bidault}}}
+\bibcite{Ouwehand2021}{{8}{2021}{{Ouwehand et~al.}}{{Ouwehand, van Gog, and Paas}}}
+\bibcite{Ratanamahatana2005}{{9}{2005}{{Ratanamahatana and Keogh}}{{}}}
+\bibcite{Rayner1998}{{10}{1998}{{Rayner}}{{}}}
+\bibcite{Reimers2019}{{11}{2019}{{Reimers and Gurevych}}{{}}}
+\bibcite{Sakoe1978}{{12}{1978}{{Sakoe and Chiba}}{{}}}
+\bibcite{Salvador2007}{{13}{2007}{{Salvador and Chan}}{{}}}
+\bibcite{Sharma2017}{{14}{2017}{{Sharma and Sharma}}{{}}}
+\bibcite{Smith2013}{{15}{2013}{{Smith and Levy}}{{}}}
+\bibcite{Theobald2008}{{16}{2008}{{Theobald et~al.}}{{Theobald, Siddharth, and Paepcke}}}
+\bibcite{Ukkonen1992}{{17}{1992}{{Ukkonen}}{{}}}
+\bibcite{Vajjala2012}{{18}{2012}{{Vajjala and Meurers}}{{}}}
+\bibcite{Wei2025}{{19}{2025}{{Wei et~al.}}{{Wei, Siegel, Sundaramoorthy, et~al.}}}
+\bibcite{Zhang2021}{{20}{2021}{{Zhang et~al.}}{{Zhang, Guo, and Li}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Reproducibility}{12}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Dataset Schema}{13}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Experiment Configuration}{13}{subsection.A.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Computing Infrastructure}{13}{subsection.A.3}\protected@file@percent }
+\gdef \@abspage@last{13}

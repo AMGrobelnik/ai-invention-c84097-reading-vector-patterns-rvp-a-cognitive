@@ -1,0 +1,147 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Broder(1997)]{Broder1997}
+Andrei~Z. Broder.
+\newblock On the resemblance and containment of documents.
+\newblock In \emph{Proceedings of the Compression and Complexity of Sequences},
+  pages 21--29, 1997.
+\newblock \doi{10.1109/SEQUEN.1997.666900}.
+
+\bibitem[Das and Smith(2009)]{Das2009}
+Dipanjan Das and Noah~A. Smith.
+\newblock Paraphrase identification as probabilistic quasi-synchronous
+  recognition.
+\newblock In \emph{Proceedings of the ACL/IJCNLP 2009 Conference}, pages
+  468--476, 2009.
+
+\bibitem[Demberg and Keller(2008)]{Demberg2008}
+Vera Demberg and Frank Keller.
+\newblock Data from eye-tracking corpora as evidence for theories of syntactic
+  processing complexity.
+\newblock \emph{Cognition}, 109\penalty0 (2):\penalty0 193--210, 2008.
+\newblock \doi{10.1016/j.cognition.2008.07.008}.
+
+\bibitem[Kuperman et~al.(2013)Kuperman, Alter, and Pavlov]{Kuperman2013}
+Victor Kuperman, Anat Alter, and Stasios Pavlov.
+\newblock Words in context: The effects of length, frequency, and
+  predictability in reading.
+\newblock \emph{Journal of Memory and Language}, 69\penalty0 (2-3):\penalty0
+  67--83, 2013.
+\newblock \doi{10.1016/j.jml.2013.04.003}.
+
+\bibitem[Kusner et~al.(2015)Kusner, Sun, Kolkin, and Weinberger]{Kusner2015}
+Matt Kusner, Yu~Sun, Nicholas Kolkin, and Kilian Weinberger.
+\newblock From word embeddings to document distances.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37, pages 957--966, 2015.
+
+\bibitem[Manku et~al.(2007)Manku, Jain, and Sarma]{Manku2007}
+Gurmeet~Singh Manku, Arvind Jain, and Anish~Das Sarma.
+\newblock Detecting near-duplicates for web crawling.
+\newblock In \emph{Proceedings of the 16th International Conference on World
+  Wide Web}, pages 141--150, 2007.
+\newblock \doi{10.1145/1242572.1242592}.
+
+\bibitem[Marukatat et~al.(2004)Marukatat, Verbeke, and Bidault]{Marukatat2004}
+Ratchaya Marukatat, Pascal Verbeke, and Paul Bidault.
+\newblock Dynamic time warping for ancient text reconstruction.
+\newblock In \emph{Proceedings of the 1st International Workshop on Document
+  Image Analysis for Libraries}, pages 89--97, 2004.
+\newblock \doi{10.1109/DIAL.2004.1263248}.
+
+\bibitem[Ouwehand et~al.(2021)Ouwehand, van Gog, and Paas]{Ouwehand2021}
+Kim Ouwehand, Tamara van Gog, and Fred Paas.
+\newblock Measuring cognitive load: Are there more valid alternatives to the
+  paas scale?
+\newblock \emph{Frontiers in Education}, 6, 2021.
+\newblock \doi{10.3389/feduc.2021.618654}.
+
+\bibitem[Ratanamahatana and Keogh(2005)]{Ratanamahatana2005}
+Chotirat~Ann Ratanamahatana and Eamonn Keogh.
+\newblock Everything you know about dynamic time warping is wrong.
+\newblock Technical report, University of California, Riverside, 2005.
+
+\bibitem[Rayner(1998)]{Rayner1998}
+Keith Rayner.
+\newblock Eye movements in reading and information processing: 20 years of
+  research.
+\newblock \emph{Psychological Bulletin}, 124\penalty0 (3):\penalty0 372--422,
+  1998.
+\newblock \doi{10.1037/0033-2909.124.3.372}.
+
+\bibitem[Reimers and Gurevych(2019)]{Reimers2019}
+Nils Reimers and Iryna Gurevych.
+\newblock Sentence-bert: Sentence embeddings using siamese bert-networks.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing}, pages 3982--3992, 2019.
+\newblock \doi{10.18653/v1/D19-1410}.
+
+\bibitem[Sakoe and Chiba(1978)]{Sakoe1978}
+Hiroaki Sakoe and Seibi Chiba.
+\newblock Dynamic programming algorithm optimization for spoken word
+  recognition.
+\newblock \emph{IEEE Transactions on Acoustics, Speech, and Signal Processing},
+  26\penalty0 (1):\penalty0 43--49, 1978.
+\newblock \doi{10.1109/TASSP.1978.1163055}.
+
+\bibitem[Salvador and Chan(2007)]{Salvador2007}
+Stan Salvador and Philip Chan.
+\newblock Toward accurate dynamic time warping in linear time and space.
+\newblock \emph{Intelligent Data Analysis}, 11\penalty0 (5):\penalty0 561--580,
+  2007.
+\newblock \doi{10.3233/IDA-2007-11508}.
+
+\bibitem[Sharma and Sharma(2017)]{Sharma2017}
+Pranav Sharma and Anmol Sharma.
+\newblock Quora question pairs dataset.
+\newblock Kaggle Competition Data, 2017.
+\newblock URL \url{https://www.kaggle.com/c/quora-question-pairs}.
+
+\bibitem[Smith and Levy(2013)]{Smith2013}
+Nathan~J. Smith and Roger Levy.
+\newblock The effect of word predictability on reading time is logarithmic.
+\newblock \emph{Cognition}, 128\penalty0 (3):\penalty0 302--319, 2013.
+\newblock \doi{10.1016/j.cognition.2013.02.013}.
+
+\bibitem[Theobald et~al.(2008)Theobald, Siddharth, and Paepcke]{Theobald2008}
+Martin Theobald, Jonathan Siddharth, and Andrew Paepcke.
+\newblock Spotsigs: Robust and efficient near duplicate detection in large web
+  collections.
+\newblock In \emph{Proceedings of the 34th International Conference on Very
+  Large Data Bases}, volume~1, pages 13--24, 2008.
+
+\bibitem[Ukkonen(1992)]{Ukkonen1992}
+Esko Ukkonen.
+\newblock Approximate string-matching with q-grams and maximal matches.
+\newblock \emph{Theoretical Computer Science}, 92\penalty0 (1):\penalty0
+  191--211, 1992.
+\newblock \doi{10.1016/0304-3975(92)90143-4}.
+
+\bibitem[Vajjala and Meurers(2012)]{Vajjala2012}
+Sowmya Vajjala and Detmar Meurers.
+\newblock On improving the accuracy of readability classification using
+  insights from second language acquisition.
+\newblock In \emph{Proceedings of the 7th Workshop on the Innovative Use of NLP
+  for Building Educational Applications}, pages 163--173, 2012.
+
+\bibitem[Wei et~al.(2025)Wei, Siegel, Sundaramoorthy, et~al.]{Wei2025}
+Jishang Wei, Erika~H. Siegel, Prahalathan Sundaramoorthy, et~al.
+\newblock Cognitive load inference using physiological markers in virtual
+  reality.
+\newblock In \emph{IEEE Conference on Virtual Reality and 3D User Interfaces
+  (VR)}, pages 759--769, 2025.
+\newblock \doi{10.1109/VR59515.2025.00098}.
+
+\bibitem[Zhang et~al.(2021)Zhang, Guo, and Li]{Zhang2021}
+Mo~Zhang, Hongwen Guo, and Xiang Li.
+\newblock Using keystroke analytics to understand cognitive processes during
+  writing.
+\newblock In \emph{Proceedings of the 14th International Conference on
+  Educational Data Mining}, 2021.
+
+\end{thebibliography}

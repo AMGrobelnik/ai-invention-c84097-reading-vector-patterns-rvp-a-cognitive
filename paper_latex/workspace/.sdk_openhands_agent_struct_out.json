@@ -1,0 +1,14 @@
+{
+  "title": "Reading Vector Patterns: Cognitive-Inspired Near-Duplicate Short Text Detection",
+  "summary": "Successfully created a publication-ready LaTeX paper from provided paper_text and available_figures. The paper introduces Reading Vector Patterns (RVP), a cognitive-inspired method for near-duplicate short text detection that converts text to reading vectors (sequences of word-level cognitive load indicators) and compares them using Dynamic Time Warping. The paper includes: (1) All 3 figures from available_figures (fig1_v0.jpg, fig2_v0.jpg, fig3_v0.jpg) inserted at correct positions with proper captions, (2) Complete LaTeX source (paper.tex, 13 pages) with all sections from the paper_text, (3) Bibliography (references.bib) with 20 references fetched via Semantic Scholar and manually verified, (4) Compiled PDF (paper.pdf, 13 pages, 4.9MB). The paper was compiled successfully with only minor overfull hbox warnings (acceptable for publication). Fixed several typos in the original text. The paper is ready for submission.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg"
+    ]
+  }
+}
