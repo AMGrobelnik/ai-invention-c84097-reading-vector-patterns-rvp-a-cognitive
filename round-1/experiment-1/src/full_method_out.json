@@ -1,0 +1,847 @@
+{
+  "metadata": {
+    "experiment_name": "Near-Duplicate Short Text Detection",
+    "methodology": {
+      "proposed_method": "MinHash LSH with word k-shingles (k=2)",
+      "baseline_method": "Character n-gram similarity (n=3)",
+      "dataset": "Synthetic short text pairs with controlled modifications",
+      "evaluation_metrics": [
+        "precision",
+        "recall",
+        "f1_score",
+        "accuracy"
+      ]
+    },
+    "evaluation_results": {
+      "baseline": {
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "f1_mean": 1.0,
+        "f1_std": 0.0,
+        "accuracy_mean": 1.0,
+        "accuracy_std": 0.0
+      },
+      "minhash": {
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "recall_mean": 0.8849413091431686,
+        "recall_std": 0.013065130096939293,
+        "f1_mean": 0.9389081109690999,
+        "f1_std": 0.007342814345808566,
+        "accuracy_mean": 0.9208000000000001,
+        "accuracy_std": 0.008352245207128448
+      }
+    },
+    "num_trials": 5,
+    "num_pairs_per_trial": 500
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_near_duplicate_texts",
+      "examples": [
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: Machine learning is a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 0
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: Online education has become increasingly popular and accessible\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 1
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: The company reported record profits in the very fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 2
+        },
+        {
+          "input": "Text 1: Climate change is a pressing global issue that requires action\nText 2: Climate change is a pressing very global issue that requires action\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 3
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Renewable energy sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 4
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: rapidly learning is a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 5
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The new policy aims to reduce carbon emissions by 50 really percent\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 6
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: The results study found significant research in the experiment\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 7
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The truly internet has revolutionized how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 8
+        },
+        {
+          "input": "Text 1: The conference featured presentations on cutting-edge technology\nText 2: Python is a popular programming language for data science\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 9
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine learning is really a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 10
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The new quite policy aims to reduce carbon emissions by 50 percent\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 11
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: continues exploration Space to yield fascinating discoveries\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 12
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Urban planning must consider sustainability and quality of life\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 13
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: Climate change is a pressing global issue that requires action\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 14
+        },
+        {
+          "input": "Text 1: The restaurant received excellent reviews for its service\nText 2: The restaurant received excellent reviews for service\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 15
+        },
+        {
+          "input": "Text 1: Renewable energy sources are becoming more cost-effective\nText 2: The quick brown fox jumps over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 16
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Online education accessible become increasingly popular and has\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 17
+        },
+        {
+          "input": "Text 1: Data privacy concerns have increased with digital transformation\nText 2: Data privacy concerns have increased with quickly transformation\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 18
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The fox brown quick jumps over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 19
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The internet has revolutionized we how communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 20
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: Artificial neural networks are inspired by biological neurons\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 21
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: Python is quickly popular programming language for data science\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 22
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: The stock market experienced significant really volatility this quarter\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 23
+        },
+        {
+          "input": "Text 1: Social media platforms have changed how we interact with others\nText 2: The company reported record profits in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 24
+        },
+        {
+          "input": "Text 1: Artificial neural networks are inspired by biological neurons\nText 2: Artificial neural neurons are inspired by biological networks\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 25
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The internet has very revolutionized how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 26
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The has revolutionized how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 27
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: The restaurant received excellent reviews for its service\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 28
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The new policy aims to reduce carbon emissions by 50\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 29
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: Renewable energy sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 30
+        },
+        {
+          "input": "Text 1: Urban planning must consider sustainability and quality of life\nText 2: Urban planning must consider sustainability and quite quality of life\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 31
+        },
+        {
+          "input": "Text 1: Renewable energy sources are becoming more cost-effective\nText 2: Renewable energy sources are more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 32
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The dog brown fox jumps over the lazy quick\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 33
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Space exploration continues to discoveries fascinating yield\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 34
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Space continues to yield fascinating discoveries\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 35
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: The stock efficiently experienced significant volatility this quarter\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 36
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine learning is a subset of artificial\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 37
+        },
+        {
+          "input": "Text 1: Regular exercise and a balanced diet are essential for health\nText 2: Regular exercise and a balanced diet are essential health for\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 38
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: The internet has revolutionized how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 39
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The quick brown fox jumps truly over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 40
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: Python is a really popular programming language for data science\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 41
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: The research study found significant results in the experiment\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 42
+        },
+        {
+          "input": "Text 1: Urban planning must consider sustainability and quality of life\nText 2: Renewable energy sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 43
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: Renewable energy sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 44
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: Customer effectively is crucial for business success\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 45
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: The research in found significant results study the experiment\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 46
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: The conference featured presentations on cutting-edge technology\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 47
+        },
+        {
+          "input": "Text 1: Social media platforms have changed how we interact with others\nText 2: Social changed platforms have media how we interact with others\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 48
+        },
+        {
+          "input": "Text 1: Climate change is a pressing global issue that requires action\nText 2: The internet has revolutionized how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 49
+        },
+        {
+          "input": "Text 1: The restaurant received excellent reviews for its service\nText 2: very The restaurant received excellent reviews for its service\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 50
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Online has become increasingly popular and accessible\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 51
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: Python is a quickly programming language for data science\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 52
+        },
+        {
+          "input": "Text 1: Climate change is a pressing global issue that requires action\nText 2: Climate change is rapidly pressing global issue that requires action\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 53
+        },
+        {
+          "input": "Text 1: Renewable energy sources are becoming more cost-effective\nText 2: The stock market experienced significant volatility this quarter\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 54
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The quick quite brown fox jumps over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 55
+        },
+        {
+          "input": "Text 1: The conference featured presentations on cutting-edge technology\nText 2: The conference featured presentations cutting-edge technology\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 56
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: The quick brown fox jumps over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 57
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The dog brown fox jumps over the lazy quick\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 58
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Space exploration discoveries to yield fascinating continues\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 59
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: Renewable energy sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 60
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Space exploration truly continues to yield fascinating discoveries\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 61
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The quick brown fox rapidly over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 62
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The quick brown lazy jumps over the fox dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 63
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Online education has become increasingly popular accessible\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 64
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine is a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 65
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Regular exercise and a balanced diet are essential for health\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 66
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: Online education has become increasingly popular and accessible\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 67
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: Artificial neural networks are inspired by biological neurons\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 68
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Customer satisfaction is crucial for business success\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 69
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The internet has quickly how we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 70
+        },
+        {
+          "input": "Text 1: Renewable energy sources are becoming more cost-effective\nText 2: Climate change is a pressing global issue that requires action\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 71
+        },
+        {
+          "input": "Text 1: The conference featured presentations on cutting-edge technology\nText 2: Social media platforms have changed how we interact with others\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 72
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine learning is a subset of quite artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 73
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: The company reported record profits quite in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 74
+        },
+        {
+          "input": "Text 1: Space exploration continues to yield fascinating discoveries\nText 2: Space exploration continues to yield fascinating\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 75
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: Customer satisfaction is crucial rapidly business success\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 76
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The company reported record profits in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 77
+        },
+        {
+          "input": "Text 1: Climate change is a pressing global issue that requires action\nText 2: The company reported record profits in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 78
+        },
+        {
+          "input": "Text 1: Python is a popular programming language for data science\nText 2: Python is a popular programming language data for science\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 79
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: The stock market experienced significant volatility quarter\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 80
+        },
+        {
+          "input": "Text 1: Social media platforms have changed how we interact with others\nText 2: Social media platforms have changed how we interact with efficiently\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 81
+        },
+        {
+          "input": "Text 1: The quick brown fox jumps over the lazy dog\nText 2: The brown quick fox jumps over the lazy dog\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 82
+        },
+        {
+          "input": "Text 1: The stock market experienced significant volatility this quarter\nText 2: The stock truly market experienced significant volatility this quarter\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 83
+        },
+        {
+          "input": "Text 1: The restaurant received excellent reviews for its service\nText 2: restaurant received excellent reviews for its service\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 84
+        },
+        {
+          "input": "Text 1: The conference featured presentations on cutting-edge technology\nText 2: quite The conference featured presentations on cutting-edge technology\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 85
+        },
+        {
+          "input": "Text 1: The conference featured presentations on cutting-edge technology\nText 2: The company reported record profits in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 86
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The new policy aims reduce carbon emissions by 50 percent\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 87
+        },
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: The internet has revolutionized we communicate and work\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 88
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: The conference featured presentations on cutting-edge technology\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 89
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine is a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 90
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: The company reported record profits in the quickly year\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 91
+        },
+        {
+          "input": "Text 1: Artificial neural networks are inspired by biological neurons\nText 2: Artificial neural networks are by inspired biological neurons\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 92
+        },
+        {
+          "input": "Text 1: The new policy aims to reduce carbon emissions by 50 percent\nText 2: The carbon policy aims to reduce new emissions by 50 percent\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 93
+        },
+        {
+          "input": "Text 1: The research study found significant results in the experiment\nText 2: The quickly study found significant results in the experiment\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 94
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: quite The company reported record profits in the fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 95
+        },
+        {
+          "input": "Text 1: Renewable energy sources are becoming more cost-effective\nText 2: Renewable sources are becoming more cost-effective\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 96
+        },
+        {
+          "input": "Text 1: Machine learning is a subset of artificial intelligence\nText 2: Machine learning is quite a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 97
+        },
+        {
+          "input": "Text 1: Online education has become increasingly popular and accessible\nText 2: Online education has become increasingly popular and rapidly\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 98
+        },
+        {
+          "input": "Text 1: Climate change is a pressing global issue that requires action\nText 2: Climate change is a pressing global issue rapidly requires action\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 99
+        }
+      ]
+    }
+  ]
+}

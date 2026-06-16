@@ -1,0 +1,19 @@
+{
+  "title": "Quora Question Pairs Dataset for Duplicate Detection",
+  "layman_summary": "Processed dataset of 353,846 Quora question pairs with duplicate labels for training and evaluating duplicate detection methods.",
+  "summary": "Successfully acquired and processed the Quora Question Pairs (QQP) dataset from HuggingFace Hub (SetFit/qqp). The dataset contains 353,846 question pairs with binary duplicate labels (is_duplicate: 0 or 1). Data was standardized to the exp_sel_data_out.json schema with fields: input (JSON string of question1, question2), output (string label), and metadata fields (metadata_fold, metadata_task_type, metadata_n_classes, metadata_row_index). Created three output variants: full (353,846 examples, split into 3 files of ~44MB each), mini (3 examples), and preview (3 examples, truncated). Dataset validated against schema - passed. QQP chosen as THE BEST dataset for duplicate detection task due to: (1) Direct relevance - originally designed for duplicate question detection, (2) Real-world data - actual Quora questions in informal style, (3) Large size - 353K examples provide good training data, (4) Proper task alignment - unlike PAWS which focuses on paraphrase detection with adversarial examples. Output files: full_data_out/full_data_out_1.json, full_data_out/full_data_out_2.json, full_data_out/full_data_out_3.json (each <100MB), mini_data_out.json, preview_data_out.json. Data.py script (uv inline) handles loading, preprocessing, and conversion to experiment format.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": [
+          "full_data_out/full_data_out_1.json",
+          "full_data_out/full_data_out_2.json",
+          "full_data_out/full_data_out_3.json"
+        ],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  }
+}

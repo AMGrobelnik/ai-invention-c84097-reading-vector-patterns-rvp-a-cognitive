@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "dataset": "quora_question_pairs",
+      "examples": [
+        {
+          "input": "{\"question1\": \"Why do we like spicy food?\", \"question2\": \"If you like really spicy food, why do you like it?\"}",
+          "output": "0",
+          "predict_RVP": "0",
+          "predict_Jaccard": "1",
+          "predict_MinHash": "1",
+          "predict_SBERT": "1"
+        },
+        {
+          "input": "{\"question1\": \"How do the brain structures of orangutans change as they age? How are these structural changes different from human brains?\", \"question2\": \"How do the brain structures of spiders change as they age? How are these structural changes different from human brains?\"}",
+          "output": "0",
+          "predict_RVP": "1",
+          "predict_Jaccard": "1",
+          "predict_MinHash": "1",
+          "predict_SBERT": "0"
+        },
+        {
+          "input": "{\"question1\": \"How do I figure this out?\", \"question2\": \"How do I figure out my dream?\"}",
+          "output": "0",
+          "predict_RVP": "1",
+          "predict_Jaccard": "1",
+          "predict_MinHash": "1",
+          "predict_SBERT": "0"
+        }
+      ]
+    }
+  ]
+}

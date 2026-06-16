@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "experiment_name": "Near-Duplicate Short Text Detection",
+    "methodology": {
+      "proposed_method": "MinHash LSH with word k-shingles (k=2)",
+      "baseline_method": "Character n-gram similarity (n=3)",
+      "dataset": "Synthetic short text pairs with controlled modifications",
+      "evaluation_metrics": [
+        "precision",
+        "recall",
+        "f1_score"
+      ]
+    },
+    "evaluation_results": {
+      "baseline": {
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "recall_mean": 1.0,
+        "recall_std": 0.0,
+        "f1_mean": 1.0,
+        "f1_std": 0.0,
+        "accuracy_mean": 1.0,
+        "accuracy_std": 0.0
+      },
+      "minhash": {
+        "precision_mean": 1.0,
+        "precision_std": 0.0,
+        "recall_mean": 0.8849413091431686,
+        "recall_std": 0.013065130096939293,
+        "f1_mean": 0.9389081109690999,
+        "f1_std": 0.007342814345808566,
+        "accuracy_mean": 0.9208000000000001,
+        "accuracy_std": 0.008352245207128448
+      }
+    },
+    "num_trials": 5,
+    "num_pairs_per_trial": 500
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_near_duplicate_texts",
+      "examples": [
+        {
+          "input": "Text 1: The internet has revolutionized how we communicate and work\nText 2: Machine learning is a subset of artificial intelligence\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 0
+        },
+        {
+          "input": "Text 1: Customer satisfaction is crucial for business success\nText 2: Online education has become increasingly popular and accessible\nQuestion: Are these near-duplicates?",
+          "output": "False",
+          "predict_baseline": "False",
+          "predict_minhash": "False",
+          "metadata_is_duplicate": false,
+          "metadata_pair_id": 1
+        },
+        {
+          "input": "Text 1: The company reported record profits in the fiscal year\nText 2: The company reported record profits in the very fiscal year\nQuestion: Are these near-duplicates?",
+          "output": "True",
+          "predict_baseline": "True",
+          "predict_minhash": "True",
+          "metadata_is_duplicate": true,
+          "metadata_pair_id": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+[
+  {
+    "question1": "Is 45 a good age to launch my own startup or is it too late?",
+    "question2": "Is it too late at the age 40 to quit the public sector to open my own business on consultancy and training?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the constraints in your life?",
+    "question2": "What is Constraint Programming?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is the best news site for Android apps?",
+    "question2": "What are the best news apps for iPhone or Android?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Do you believe in the supernatural? Why or why not?",
+    "question2": "Why do you believe in the supernatural?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is your favourite answer from some of your favourite users on Quora?",
+    "question2": "What are some of the best answers on Quora?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Why are all the planets and moons round?",
+    "question2": "Why are planets mostly round?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "\"How do you say \"\"is\"\" in French?\"",
+    "question2": "\"How do you say \"\"and you\"\" in French?\"",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "If you are an Army General and you 'absolutely' have to invade USA in winter, how would you do it?",
+    "question2": "Military Strategy: If you are an Army General and you 'absolutely' have to invade Russia in winter, how would you do it?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is actually happening when (biased) news reported Obama is giving away the internet?",
+    "question2": "Should Obama give away the Internet?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Is daily masturbation causes any hair fall?",
+    "question2": "Does masturbation cause hair fall?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What is the acceptance rate for a PhD at CREOL, University of Central Florida?",
+    "question2": "What is the acceptance rate for a PhD program in the Institute of Optics at the University of Rochester?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What will happen if I put regular gas into a car that requires premium gas?",
+    "question2": "What will happen if I put regular gas in a car that has always had premium gas in it?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What tactics did Facebook use to drive its user acquisition growth?",
+    "question2": "What are the best books or web resources on Growth Hacking and User Acquisition?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "\"How does the \"\"Waiting List\"\" status work in Indian Railways?\"",
+    "question2": "Up to what no. can the waiting list be cleared in railways for AC coach?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Am I exempt from tax reporting requirements in USA as a non-USA resident doing business on Ecommerce sites like eBay and Amazon by filing form W-8BEN?",
+    "question2": "I'm really good at mathematics, how can I make money from that?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are some amazing coincidences in mathematics?",
+    "question2": "What are some amazing facts about mathematics?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How do I become focused on school?",
+    "question2": "How do I can become focused on school?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Which celebrity has the biggest ego?",
+    "question2": "Who is the biggest earner celebrity?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How do I recover my SBI profile password in case I have forgot my SBI profile password and security question?",
+    "question2": "Why does the SBI PO interview people say talk in English. But in YouTube videos they speak in Hindi? Why is it so?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the best art exhibitions in Kolkata?",
+    "question2": "What are the best art exhibitions in Kolkata, India?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What is a chicken?",
+    "question2": "How chicken is a chicken?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How can I talk dirty with my boyfriend?",
+    "question2": "How did you get your spouse to start talking dirty in bed?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Would a man leave his wife for a mistress?",
+    "question2": "Why on earth would a man cheat on his very hot and loyal wife?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Why does sakura have a large forehead?",
+    "question2": "What percentage of people live in countries of which they are not citizens?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What does cum taste like?",
+    "question2": "Does semen taste good?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What is the best way to prepare crispy pancakes?",
+    "question2": "How can you prepare thin crispy pancakes?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What were the major causes for the French Revolution of 1789?",
+    "question2": "Which were some of the major causes of the French Revolution that happened in 1789?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Who is the best user to follow on Quora and why?",
+    "question2": "Who should I follow on Quora? Why?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "How can I get good at dynamic programming?",
+    "question2": "How can I overcome the fear for dynamic programming? I get stuck even in the easiest ones. Could you provide me any structured suggestion?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Why aren't cigarettes just banned?",
+    "question2": "What cigarettes are being banned?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is the use of cloaking in SEO?",
+    "question2": "How do I learn Cloaking in SEO?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Is the approval of GST a boon, or a bane for India?",
+    "question2": "Is GST going to be a boon or bane for India?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "At age 25, it is too young for marry to my girlfriend?",
+    "question2": "How commom is for a \u201cnew\u201d to be patent /copirighted but turns out that such thing alredy exist?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are some top fashion tips for guys?",
+    "question2": "What are some quick fashion tips for man?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What does it mean when someone tells you you're emotionally corrupted?",
+    "question2": "What does OK mean when you tell someone how you feel?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What should I do if I'm being followed?",
+    "question2": "What do I do if I'm being followed by someone?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "How do I change my topics on Quora?",
+    "question2": "How do I change the topic on Quora?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "How do I create an e commerce website?",
+    "question2": "How do I create an e-commerce website?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What is Larry David up to these days?",
+    "question2": "What is the probable Myers-Briggs type of Larry David on Curb Your Enthusiasm?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Do you prefer answering or asking Quora questions?",
+    "question2": "Do you try to answer more questions than you ask on Quora?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Has there been any work on using deep learning for recommendation engines?",
+    "question2": "Does Stitch Fix use Deep Learning?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "If I want to become an astrophysicist and I want to start studying on my own, how do I start?",
+    "question2": "I want to learn astrophysics. Where should I start?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What next after India's surgical strike?",
+    "question2": "What will be repercussion of India's surgical strike to Pakistan?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Does a full Hard Disk physically weigh more than an empty Hard Disk?",
+    "question2": "Would there be a difference in weight of 1 TB hard disk with full 1 TB data and a empty hard disk?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Does Hillary Clinton have any known health issues that might keep her from running or succeeding in 2016?",
+    "question2": "Does Hillary Clinton have health issues we, as voters, should be concerned about?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "How do I delete a picture on Instagram?",
+    "question2": "How do you upload pictures from your PC to your Instagram?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Why do people hate Israel?",
+    "question2": "Why do so many countries hate Israel?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Where can I get NS2 tutorials?",
+    "question2": "Where can we get Lynda tutorials for free?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Which book should be the best for JE AE exam preparation for electrical engineering students?",
+    "question2": "Which books should be the best for the JE and AE exam preparation for civil engineering students?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What does it feel like to wear a Jimmy Choo?",
+    "question2": "How can I protect my Jimmy Choos from wear and tear on the soles?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How was vedic math?",
+    "question2": "What is vedic mathematics?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Is it possible to tell if someone has ignored your Facebook friend request?",
+    "question2": "Why would you keep a Facebook friend request pending?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "In India what to do to open my own pharmaceutical company?",
+    "question2": "What are the benefits of being a teenager nowadays?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Waterloo convert cgpa to percentage?",
+    "question2": "Why Tcs hires people with IT skills and Assign them in BPS grade?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is the average return rate for apparel online?",
+    "question2": "What are the return rates of online shopping?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Are the sets of numbers broadcast from private radio stations only for dark web sites use?",
+    "question2": "The sets of numbers that are broadcast from private radio stations only for the dark web sites use?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Where can I pay my Capital One credit card?",
+    "question2": "How much money do I have to make to apply for a Capital One credit card?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Python (programming language): How can I crawl a web page until its end?",
+    "question2": "What is the future of Python?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How can l leave the person I love who doesn't love me?",
+    "question2": "Want to buy a gaming laptop. at the price of Alienware 15 Asus ROG is giving more configuration. What should I choose?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Where could I find an online Machine Learning mentor?",
+    "question2": "How do I find an online mentor for machine learning?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the basic types of mass wasting?",
+    "question2": "Does information have a mass?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How do I get an internship at CERN (Pakistani Student) and is it possible to get a sponsored one at CERN?",
+    "question2": "Can Russia legally attack Japan?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Is it possible to get rid of cellulite?",
+    "question2": "How do I cure cellulite?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Heads or tails?",
+    "question2": "What has a head and a tail but doesn't have a head and tail?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the best blogging sites?",
+    "question2": "How do I start a blog and what are the best blogging platforms available?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How long does nicotine stay in your system? Why?",
+    "question2": "How long does tobacco or nicotine stay in your system?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Do you think the NSA is corrupt?",
+    "question2": "What does President Obama think of ACA being called Obamacare?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How do I get over guilt\u007f?",
+    "question2": "How do I get over guilt of rejecting people?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Is it safe to travel to Istanbul in September 2016?",
+    "question2": "How safe/unsafe is it to visit Turkey (Istanbul and Cappadocia) in September 2016?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Does birth control contain acetaminophen?",
+    "question2": "Why do birth control pills contain acetaminophen?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Why do plumbers earn so much money?",
+    "question2": "How much money do you earn from one Subscriber?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Do energy drinks have bull sperms?",
+    "question2": "Do energy drinks (such as Red Bull) have bull sperm in it?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "My opinion is iPhone 7 isn't worth the upgrade. What do you think?",
+    "question2": "Is iPhone 7 worth buying?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Where is the file manager for Moto G 2nd generation?",
+    "question2": "How is the Moto G 2nd gen? Is it worth buying?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What does Jimmy Wales think of?",
+    "question2": "What does Jimmy Wales think of The Economist?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Is there no real difference between humans and other animals?",
+    "question2": "How are humans different from other animal species?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Where can I get very reasonable price for commercial window cleaning services in Sydney?",
+    "question2": "Where can I get best domestic and commercial window cleaning service in Sydney?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "If Donald Trump wins the presidential election, how will it impact India?",
+    "question2": "If Mr Donald Trump wins the US Presidential election, will it impact India economically?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Do we really have to wait until the U.S. is at war with China before removing Donald Trump from office?",
+    "question2": "Is Donald Trump trying to force China to war?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the best moments of the 2016 Kabaddi World Cup?",
+    "question2": "According to you, which is the best moment of the 2016 Kabaddi World Cup?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What's the best programming language to learn in 2016?",
+    "question2": "What is the best programming language to learn(in your opinion)?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What was the Saradha Chit Fund scam?",
+    "question2": "Will high profile and powerful individuals involved in the Saradha Chit Fund scam be punished?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Who are the best diabetologist in Delhi? Can anyone please give me the list of the same?",
+    "question2": "Which company gives the best HR services in Delhi?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the best online work from home opportunities?",
+    "question2": "What are some work from home opportunities that aren't a scam?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "A crate is slid across a floor. The mass of the crate is 200kg and the coefficient of static friction is 0.30. How much force is needed to keep the crate moving to the west with a constant velocity of 7m/s?",
+    "question2": "A crate is slid across a floor. The mass of the crate is 200kg and the coefficient of static friction is 0.30. How much force is needed to keep the crate moving to the east with a constant velocity of 4m/s?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What will be the pros and cons of the replacement of 500 and 1000 currency notes by the Indian govt.?",
+    "question2": "What is the main reason for discontinuing 500 and 1000 Rupees Note in India? What are the pros and cons of it?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What is difference between l like you and I am very fond of you?",
+    "question2": "What is the difference between has and had?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What happens to the third electron of an atomic nucleus with three protons, when you take one proton out?",
+    "question2": "What happens when an electron colliods with a proton?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How can I crack the IIT in my first attempt without coaching if I am a class topper?",
+    "question2": "I am in 9th class. How can I build my basics to crack the IIT-JEE?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Which test is easy IELTS or PET?",
+    "question2": "Is the PTE easy compared to the to IELTS test?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "What are some things new employees should know going into their first day at Calpine?",
+    "question2": "What are some things new employees should know going into their first day at L Brands?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What song do you absolutely LOVE?",
+    "question2": "How can we absorb dangerous polluting gases like SO2, NO2 etc. and decompose them to useful substances ?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Does the existence of God depend on certain prerequisites? For example, can God be God if it is not all knowing, morally perfect, all powerful and self-aware?",
+    "question2": "If God exists, why didn't I come to be self-aware as God?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How can I keep track of all main events in my online store without having to check the admin panel all the time?",
+    "question2": "I am new to the world of stock investing. I have gotten obsessed with tracking the graphs to an extent that I check all the stocks I have invested in, every 2 minutes. How should I get over this obsession?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How can I check a capacitor with a multimeter?",
+    "question2": "How can you test a capacitor without a multimeter?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Politics: Can democracy choose the best to rule?",
+    "question2": "How democracy is a better form of politics?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "How is CCS university, UP for law as compared to B.R Ambedkar university, Agra, UP and M.D university, Haryana?",
+    "question2": "How do I ensure my whatsapp is secure from hacking?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is a gyroscope? How does it work?",
+    "question2": "What is gyroscope?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Why do big business houses like Adani, Reliance, etc. keep getting loans from banks despite already being under a huge pile of debt?",
+    "question2": "Why is the US banking industry still dominated by the too big to fail banks which are carrying huge amounts of bad subprime mortgage debt, and why haven't new small retail banks sprung up which are not carrying bad debt to serve local customer and business needs?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What does AMG means in Mercedes Benz cars?",
+    "question2": "What is a better car, the Mercedes Benz G LA or the Acura RDX?",
+    "is_duplicate": 0
+  }
+]

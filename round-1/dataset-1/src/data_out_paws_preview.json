@@ -1,0 +1,27 @@
+[
+  {
+    "question1": "African stone tool technologies are divided into modes , as proposed by Grahame Clark in 1969 , outlined by Lawrence Barham and Peter Mitchell as follows :",
+    "question2": "African stone tool technologies are divided into modes as proposed by Grahame Clark in 1969 and outlined by Lawrence Barham and Peter Mitchell as follows :",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "All observed commemorations below are fixed on 18 Pashons by the Coptic Orthodox Church .",
+    "question2": "All of the fixed commemorations below are observed by the Coptic Orthodox Church on 18 Pashons .",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "The poet and writer Andrija Ka\u010di\u0107 Mio\u0161i\u0107 and the Franciscan writer Filip Grabovac introduce a special place in the literature of the 18th century .",
+    "question2": "A special place in the literature of the 18th century is held by the poet and writer Filip Grabovac and the Franciscan writer Andrija Ka\u010di\u0107 Mio\u0161i\u0107 .",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "Stefan Mross presented an episode in August 2010 , while Axel Bulthaupt was absent for personal reasons .",
+    "question2": "In 2010 , Axel Bulthaupt presented an episode in August while Stefan Mross was absent for private reasons .",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "The river Z\u0103br\u0103t\u0103u is a tributary of the River Bota Mare in Romania .",
+    "question2": "The river Bota Mare is a tributary of the Z\u0103br\u0103t\u0103u River in Romania .",
+    "is_duplicate": 0
+  }
+]

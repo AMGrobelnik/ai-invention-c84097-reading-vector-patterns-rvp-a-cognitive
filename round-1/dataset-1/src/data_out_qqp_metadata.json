@@ -1,0 +1,24 @@
+{
+  "dataset_name": "Quora Question Pairs (QQP)",
+  "source": "HuggingFace Hub",
+  "download_date": "2026-06-16T19:09:29.117984",
+  "original_size": 363846,
+  "sampled_size": 353846,
+  "sampling_method": "stratified by is_duplicate label",
+  "random_seed": 42,
+  "label_distribution": {
+    "duplicate (1)": 130685,
+    "non-duplicate (0)": 223161
+  },
+  "average_question_length": {
+    "question1": 10.94276040989583,
+    "question2": 11.184246819237748
+  },
+  "preprocessing": [
+    "Renamed columns to standard format",
+    "Removed HTML tags",
+    "Stripped whitespace",
+    "Removed rows with empty questions",
+    "Converted is_duplicate to int"
+  ]
+}

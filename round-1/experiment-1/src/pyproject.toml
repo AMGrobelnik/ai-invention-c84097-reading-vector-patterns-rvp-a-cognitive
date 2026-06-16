@@ -1,0 +1,24 @@
+[project]
+name = "near-duplicate-text-detection"
+version = "1.0.0"
+description = "Near-duplicate short text snippet detection using MinHash LSH and character n-gram baseline"
+requires-python = ">=3.12"
+dependencies = [
+    "loguru==0.7.3",
+    "numpy==2.4.6"
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "ruff>=0.1"
+]

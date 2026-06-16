@@ -1,0 +1,24 @@
+{
+  "dataset_name": "PAWS (Paraphrase Adversaries from Word Scrambling)",
+  "source": "HuggingFace Hub",
+  "download_date": "2026-06-16T19:09:36.107723",
+  "original_size": 49401,
+  "sampled_size": 44401,
+  "sampling_method": "stratified by is_duplicate label",
+  "random_seed": 42,
+  "label_distribution": {
+    "duplicate (1)": 19620,
+    "non-duplicate (0)": 24781
+  },
+  "average_question_length": {
+    "question1": 21.34819035607306,
+    "question2": 21.344992229904733
+  },
+  "preprocessing": [
+    "Renamed columns to standard format",
+    "Removed HTML tags",
+    "Stripped whitespace",
+    "Removed rows with empty questions",
+    "Converted is_duplicate to int"
+  ]
+}

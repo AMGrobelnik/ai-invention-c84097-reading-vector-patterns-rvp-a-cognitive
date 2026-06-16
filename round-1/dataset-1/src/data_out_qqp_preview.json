@@ -1,0 +1,27 @@
+[
+  {
+    "question1": "Is 45 a good age to launch my own startup or is it too late?",
+    "question2": "Is it too late at the age 40 to quit the public sector to open my own business on consultancy and training?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What are the constraints in your life?",
+    "question2": "What is Constraint Programming?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is the best news site for Android apps?",
+    "question2": "What are the best news apps for iPhone or Android?",
+    "is_duplicate": 1
+  },
+  {
+    "question1": "Do you believe in the supernatural? Why or why not?",
+    "question2": "Why do you believe in the supernatural?",
+    "is_duplicate": 0
+  },
+  {
+    "question1": "What is your favourite answer from some of your favourite users on Quora?",
+    "question2": "What are some of the best answers on Quora?",
+    "is_duplicate": 0
+  }
+]

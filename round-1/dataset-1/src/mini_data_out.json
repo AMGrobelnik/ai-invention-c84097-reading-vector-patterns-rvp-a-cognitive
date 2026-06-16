@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    {
+      "dataset": "quora_question_pairs",
+      "examples": [
+        {
+          "input": "{\"question1\": \"Is 45 a good age to launch my own startup or is it too late?\", \"question2\": \"Is it too late at the age 40 to quit the public sector to open my own business on consultancy and training?\"}",
+          "output": "0",
+          "metadata_fold": 0,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 0
+        },
+        {
+          "input": "{\"question1\": \"What are the constraints in your life?\", \"question2\": \"What is Constraint Programming?\"}",
+          "output": "0",
+          "metadata_fold": 1,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 1
+        },
+        {
+          "input": "{\"question1\": \"What is the best news site for Android apps?\", \"question2\": \"What are the best news apps for iPhone or Android?\"}",
+          "output": "1",
+          "metadata_fold": 2,
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2,
+          "metadata_row_index": 2
+        }
+      ]
+    }
+  ]
+}

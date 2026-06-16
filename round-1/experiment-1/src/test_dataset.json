@@ -1,0 +1,3004 @@
+{
+  "pairs": [
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 0
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Online education has become increasingly popular and accessible",
+      "is_duplicate": false,
+      "pair_id": 1
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in the very fiscal year",
+      "is_duplicate": true,
+      "pair_id": 2
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing very global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 3
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 4
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "rapidly learning is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 5
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon emissions by 50 really percent",
+      "is_duplicate": true,
+      "pair_id": 6
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The results study found significant research in the experiment",
+      "is_duplicate": true,
+      "pair_id": 7
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The truly internet has revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 8
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Python is a popular programming language for data science",
+      "is_duplicate": false,
+      "pair_id": 9
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is really a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 10
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new quite policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 11
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "continues exploration Space to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 12
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Urban planning must consider sustainability and quality of life",
+      "is_duplicate": false,
+      "pair_id": 13
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 14
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received excellent reviews for service",
+      "is_duplicate": true,
+      "pair_id": 15
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The quick brown fox jumps over the lazy dog",
+      "is_duplicate": false,
+      "pair_id": 16
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education accessible become increasingly popular and has",
+      "is_duplicate": true,
+      "pair_id": 17
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy concerns have increased with quickly transformation",
+      "is_duplicate": true,
+      "pair_id": 18
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The fox brown quick jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 19
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized we how communicate and work",
+      "is_duplicate": true,
+      "pair_id": 20
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 21
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is quickly popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 22
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant really volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 23
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 24
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural neurons are inspired by biological networks",
+      "is_duplicate": true,
+      "pair_id": 25
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has very revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 26
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The has revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 27
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 28
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon emissions by 50",
+      "is_duplicate": true,
+      "pair_id": 29
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 30
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider sustainability and quite quality of life",
+      "is_duplicate": true,
+      "pair_id": 31
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 32
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The dog brown fox jumps over the lazy quick",
+      "is_duplicate": true,
+      "pair_id": 33
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues to discoveries fascinating yield",
+      "is_duplicate": true,
+      "pair_id": 34
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 35
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock efficiently experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 36
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset of artificial",
+      "is_duplicate": true,
+      "pair_id": 37
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet are essential health for",
+      "is_duplicate": true,
+      "pair_id": 38
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 39
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox jumps truly over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 40
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a really popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 41
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 42
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 43
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 44
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer effectively is crucial for business success",
+      "is_duplicate": true,
+      "pair_id": 45
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The research in found significant results study the experiment",
+      "is_duplicate": true,
+      "pair_id": 46
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 47
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social changed platforms have media how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 48
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 49
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "very The restaurant received excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 50
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 51
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a quickly programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 52
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is rapidly pressing global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 53
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 54
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick quite brown fox jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 55
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference featured presentations cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 56
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The quick brown fox jumps over the lazy dog",
+      "is_duplicate": false,
+      "pair_id": 57
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The dog brown fox jumps over the lazy quick",
+      "is_duplicate": true,
+      "pair_id": 58
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration discoveries to yield fascinating continues",
+      "is_duplicate": true,
+      "pair_id": 59
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 60
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration truly continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 61
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox rapidly over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 62
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown lazy jumps over the fox dog",
+      "is_duplicate": true,
+      "pair_id": 63
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular accessible",
+      "is_duplicate": true,
+      "pair_id": 64
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 65
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 66
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Online education has become increasingly popular and accessible",
+      "is_duplicate": false,
+      "pair_id": 67
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 68
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 69
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has quickly how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 70
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 71
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 72
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset of quite artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 73
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits quite in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 74
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues to yield fascinating",
+      "is_duplicate": true,
+      "pair_id": 75
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial rapidly business success",
+      "is_duplicate": true,
+      "pair_id": 76
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 77
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 78
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language data for science",
+      "is_duplicate": true,
+      "pair_id": 79
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility quarter",
+      "is_duplicate": true,
+      "pair_id": 80
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed how we interact with efficiently",
+      "is_duplicate": true,
+      "pair_id": 81
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The brown quick fox jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 82
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock truly market experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 83
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "restaurant received excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 84
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "quite The conference featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 85
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 86
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 87
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 88
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 89
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 90
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in the quickly year",
+      "is_duplicate": true,
+      "pair_id": 91
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks are by inspired biological neurons",
+      "is_duplicate": true,
+      "pair_id": 92
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The carbon policy aims to reduce new emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 93
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The quickly study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 94
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "quite The company reported record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 95
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable sources are becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 96
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is quite a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 97
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular and rapidly",
+      "is_duplicate": true,
+      "pair_id": 98
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global issue rapidly requires action",
+      "is_duplicate": true,
+      "pair_id": 99
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 100
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global issue really that requires action",
+      "is_duplicate": true,
+      "pair_id": 101
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced really significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 102
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "efficiently is a popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 103
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 104
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record in profits the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 105
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider very sustainability and quality of life",
+      "is_duplicate": true,
+      "pair_id": 106
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is data popular programming language for a science",
+      "is_duplicate": true,
+      "pair_id": 107
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The new policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": false,
+      "pair_id": 108
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 109
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction for crucial is business success",
+      "is_duplicate": true,
+      "pair_id": 110
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet are efficiently for health",
+      "is_duplicate": true,
+      "pair_id": 111
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 112
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 113
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming rapidly cost-effective",
+      "is_duplicate": true,
+      "pair_id": 114
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 115
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "pressing change is a Climate global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 116
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 117
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more quickly",
+      "is_duplicate": true,
+      "pair_id": 118
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language for data",
+      "is_duplicate": true,
+      "pair_id": 119
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues to yield quickly discoveries",
+      "is_duplicate": true,
+      "pair_id": 120
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 121
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks are inspired by biological efficiently",
+      "is_duplicate": true,
+      "pair_id": 122
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Data privacy concerns have increased with digital transformation",
+      "is_duplicate": false,
+      "pair_id": 123
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python effectively a popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 124
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "very Social media platforms have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 125
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 126
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 127
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "sources energy Renewable are becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 128
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "rapidly education has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 129
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues quickly yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 130
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 131
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 132
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 133
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular rapidly accessible",
+      "is_duplicate": true,
+      "pair_id": 134
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 135
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data effectively concerns have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 136
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 137
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have rapidly how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 138
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a efficiently diet are essential for health",
+      "is_duplicate": true,
+      "pair_id": 139
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular quickly language for data science",
+      "is_duplicate": true,
+      "pair_id": 140
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 141
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference quickly presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 142
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "rapidly neural networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 143
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "is learning Machine a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 144
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 145
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "very The stock market experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 146
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received excellent reviews for very its service",
+      "is_duplicate": true,
+      "pair_id": 147
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 148
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "revolutionized internet has The how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 149
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 150
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 151
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported efficiently profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 152
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration discoveries to yield fascinating continues",
+      "is_duplicate": true,
+      "pair_id": 153
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks are inspired by biological really neurons",
+      "is_duplicate": true,
+      "pair_id": 154
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in truly the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 155
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer for is crucial satisfaction business success",
+      "is_duplicate": true,
+      "pair_id": 156
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education very has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 157
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 158
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet are essential for efficiently",
+      "is_duplicate": true,
+      "pair_id": 159
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 160
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed how we interact quite with others",
+      "is_duplicate": true,
+      "pair_id": 161
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy concerns have increased with truly digital transformation",
+      "is_duplicate": true,
+      "pair_id": 162
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "effectively exploration continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 163
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider sustainability and quality quite of life",
+      "is_duplicate": true,
+      "pair_id": 164
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference featured presentations on truly cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 165
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 166
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 167
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 168
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education really has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 169
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "very The stock market experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 170
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how we communicate and",
+      "is_duplicate": true,
+      "pair_id": 171
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues efficiently yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 172
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 173
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 174
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources cost-effective becoming more are",
+      "is_duplicate": true,
+      "pair_id": 175
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a quite subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 176
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 177
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular a and exercise balanced diet are essential for health",
+      "is_duplicate": true,
+      "pair_id": 178
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a health diet are essential for balanced",
+      "is_duplicate": true,
+      "pair_id": 179
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 180
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 181
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is quickly pressing global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 182
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 183
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market very experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 184
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer is crucial for business success",
+      "is_duplicate": true,
+      "pair_id": 185
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 186
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial networks neural are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 187
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy quite concerns have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 188
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 189
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly and popular accessible",
+      "is_duplicate": true,
+      "pair_id": 190
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 191
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 192
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is effectively popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 193
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference presentations featured on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 194
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy are becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 195
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "very Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": true,
+      "pair_id": 196
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 197
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "conference The featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 198
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "truly The research study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 199
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how quickly communicate and work",
+      "is_duplicate": true,
+      "pair_id": 200
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 201
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 202
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The research study significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 203
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial are networks neural inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 204
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "the company reported record profits in The fiscal year",
+      "is_duplicate": true,
+      "pair_id": 205
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming cost-effective",
+      "is_duplicate": true,
+      "pair_id": 206
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial for efficiently success",
+      "is_duplicate": true,
+      "pair_id": 207
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "quick The brown fox jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 208
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "exploration continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 209
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 210
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 211
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference featured presentations on technology",
+      "is_duplicate": true,
+      "pair_id": 212
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "effectively change is a pressing global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 213
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in the fiscal quickly",
+      "is_duplicate": true,
+      "pair_id": 214
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have efficiently how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 215
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "have media platforms Social changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 216
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction quite is crucial for business success",
+      "is_duplicate": true,
+      "pair_id": 217
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how we communicate quickly work",
+      "is_duplicate": true,
+      "pair_id": 218
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 219
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "truly Online education has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 220
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed we interact with others",
+      "is_duplicate": true,
+      "pair_id": 221
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are efficiently more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 222
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "very The company reported record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 223
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "restaurant received excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 224
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The new policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": false,
+      "pair_id": 225
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine efficiently is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 226
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 227
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox jumps over really the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 228
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 229
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox jumps over the dog lazy",
+      "is_duplicate": true,
+      "pair_id": 230
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are really becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 231
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in the quite fiscal year",
+      "is_duplicate": true,
+      "pair_id": 232
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language for science",
+      "is_duplicate": true,
+      "pair_id": 233
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Online education has become increasingly popular and accessible",
+      "is_duplicate": false,
+      "pair_id": 234
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider sustainability and rapidly of life",
+      "is_duplicate": true,
+      "pair_id": 235
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "really Online education has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 236
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported very record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 237
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 238
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility quarter",
+      "is_duplicate": true,
+      "pair_id": 239
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is truly a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 240
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility quarter this",
+      "is_duplicate": true,
+      "pair_id": 241
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 242
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference featured on presentations cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 243
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more quickly",
+      "is_duplicate": true,
+      "pair_id": 244
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer is crucial for business success",
+      "is_duplicate": true,
+      "pair_id": 245
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural efficiently are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 246
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 247
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have quickly how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 248
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 249
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 250
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce efficiently emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 251
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 252
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "really Machine learning is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 253
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Data privacy concerns have increased with digital transformation",
+      "is_duplicate": false,
+      "pair_id": 254
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are cost-effective more becoming",
+      "is_duplicate": true,
+      "pair_id": 255
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Urban planning must consider sustainability and quality of life",
+      "is_duplicate": false,
+      "pair_id": 256
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown really fox jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 257
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Urban planning must consider sustainability and quality of life",
+      "is_duplicate": false,
+      "pair_id": 258
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial efficiently networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 259
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "quickly media platforms have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 260
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial for business effectively",
+      "is_duplicate": true,
+      "pair_id": 261
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular for language programming data science",
+      "is_duplicate": true,
+      "pair_id": 262
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "exploration continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 263
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 264
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more quickly",
+      "is_duplicate": true,
+      "pair_id": 265
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 266
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon emissions 50 percent",
+      "is_duplicate": true,
+      "pair_id": 267
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural are networks inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 268
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how we quickly and work",
+      "is_duplicate": true,
+      "pair_id": 269
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "Space exploration continues to yield fascinating discoveries",
+      "is_duplicate": false,
+      "pair_id": 270
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 271
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language data science",
+      "is_duplicate": true,
+      "pair_id": 272
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues to discoveries fascinating yield",
+      "is_duplicate": true,
+      "pair_id": 273
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility quarter",
+      "is_duplicate": true,
+      "pair_id": 274
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new by aims to reduce carbon emissions policy 50 percent",
+      "is_duplicate": true,
+      "pair_id": 275
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new quite policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 276
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a very subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 277
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "The quick brown fox jumps over the lazy dog",
+      "is_duplicate": false,
+      "pair_id": 278
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "quickly internet has revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 279
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new reduce aims to policy carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 280
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is for popular programming language a data science",
+      "is_duplicate": true,
+      "pair_id": 281
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "very The conference featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 282
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 283
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility quarter",
+      "is_duplicate": true,
+      "pair_id": 284
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference featured presentations cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 285
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "of learning is a subset Machine artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 286
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The reported record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 287
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed how we quite interact with others",
+      "is_duplicate": true,
+      "pair_id": 288
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility very this quarter",
+      "is_duplicate": true,
+      "pair_id": 289
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 290
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "research study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 291
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 292
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "very Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 293
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global issue that action",
+      "is_duplicate": true,
+      "pair_id": 294
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language for data effectively",
+      "is_duplicate": true,
+      "pair_id": 295
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Customer satisfaction is crucial for business success",
+      "is_duplicate": false,
+      "pair_id": 296
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy effectively have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 297
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset truly of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 298
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant this quarter",
+      "is_duplicate": true,
+      "pair_id": 299
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market quickly significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 300
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "The quick brown fox jumps over the lazy dog",
+      "is_duplicate": false,
+      "pair_id": 301
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural efficiently are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 302
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language for science",
+      "is_duplicate": true,
+      "pair_id": 303
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks are inspired by biological",
+      "is_duplicate": true,
+      "pair_id": 304
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "Urban planning must consider sustainability and quality of life",
+      "is_duplicate": false,
+      "pair_id": 305
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 306
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 307
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet are essential for quickly",
+      "is_duplicate": true,
+      "pair_id": 308
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 309
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "Space exploration continues to yield fascinating discoveries",
+      "is_duplicate": false,
+      "pair_id": 310
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "The new policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": false,
+      "pair_id": 311
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial truly neural networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 312
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "quickly neural networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 313
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "are energy sources Renewable becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 314
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 315
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced volatility significant this quarter",
+      "is_duplicate": true,
+      "pair_id": 316
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues to yield efficiently discoveries",
+      "is_duplicate": true,
+      "pair_id": 317
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 318
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "Data privacy concerns have increased with digital transformation",
+      "is_duplicate": false,
+      "pair_id": 319
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 320
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 321
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 322
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is quickly subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 323
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language very for data science",
+      "is_duplicate": true,
+      "pair_id": 324
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial for business",
+      "is_duplicate": true,
+      "pair_id": 325
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The conference really featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 326
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "The new policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": false,
+      "pair_id": 327
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 328
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "quite The company reported record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 329
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise rapidly a balanced diet are essential for health",
+      "is_duplicate": true,
+      "pair_id": 330
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "yield exploration continues to Space fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 331
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "yield exploration continues to Space fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 332
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon emissions percent 50 by",
+      "is_duplicate": true,
+      "pair_id": 333
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received excellent reviews quite for its service",
+      "is_duplicate": true,
+      "pair_id": 334
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 335
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial efficiently networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 336
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly truly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 337
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is efficiently for business success",
+      "is_duplicate": true,
+      "pair_id": 338
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 339
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed efficiently we interact with others",
+      "is_duplicate": true,
+      "pair_id": 340
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning and consider sustainability must quality of life",
+      "is_duplicate": true,
+      "pair_id": 341
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 342
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 343
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Renewable energy sources are becoming more cost-effective",
+      "is_duplicate": false,
+      "pair_id": 344
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new really policy aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 345
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet effectively essential for health",
+      "is_duplicate": true,
+      "pair_id": 346
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Space exploration continues to yield fascinating discoveries",
+      "is_duplicate": false,
+      "pair_id": 347
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Python is a popular programming language for data science",
+      "is_duplicate": false,
+      "pair_id": 348
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "how internet has revolutionized The we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 349
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social platforms have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 350
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to reduce carbon emissions quickly 50 percent",
+      "is_duplicate": true,
+      "pair_id": 351
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported very record profits in the fiscal year",
+      "is_duplicate": true,
+      "pair_id": 352
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 353
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 354
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 355
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is very a popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 356
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy digital have increased with concerns transformation",
+      "is_duplicate": true,
+      "pair_id": 357
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 358
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues efficiently yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 359
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset of intelligence",
+      "is_duplicate": true,
+      "pair_id": 360
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 361
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 362
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming data for language science",
+      "is_duplicate": true,
+      "pair_id": 363
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 364
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "Online education has become increasingly popular and accessible",
+      "is_duplicate": false,
+      "pair_id": 365
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed with we interact how others",
+      "is_duplicate": true,
+      "pair_id": 366
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 367
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 368
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural quite networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 369
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python for a popular programming language is data science",
+      "is_duplicate": true,
+      "pair_id": 370
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider really sustainability and quality of life",
+      "is_duplicate": true,
+      "pair_id": 371
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "rapidly stock market experienced significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 372
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy aims to truly reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 373
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider sustainability and quality of",
+      "is_duplicate": true,
+      "pair_id": 374
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 375
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular quickly language for data science",
+      "is_duplicate": true,
+      "pair_id": 376
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "fascinating exploration continues to yield Space discoveries",
+      "is_duplicate": true,
+      "pair_id": 377
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "effectively learning is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 378
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy concerns quite have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 379
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must sustainability and quality of life",
+      "is_duplicate": true,
+      "pair_id": 380
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 381
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular and very accessible",
+      "is_duplicate": true,
+      "pair_id": 382
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "The quick brown fox jumps over the lazy dog",
+      "is_duplicate": false,
+      "pair_id": 383
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine really learning is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 384
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "research study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 385
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 386
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new policy quickly to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 387
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick over fox jumps brown the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 388
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet are essential quickly health",
+      "is_duplicate": true,
+      "pair_id": 389
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 390
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms have changed we interact with others",
+      "is_duplicate": true,
+      "pair_id": 391
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Artificial neural networks are inspired by biological neurons",
+      "is_duplicate": false,
+      "pair_id": 392
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 393
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "rapidly media platforms have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 394
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "truly The internet has revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 395
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how we communicate and very work",
+      "is_duplicate": true,
+      "pair_id": 396
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space exploration continues quite to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 397
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial for success",
+      "is_duplicate": true,
+      "pair_id": 398
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 399
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is for popular programming language a data science",
+      "is_duplicate": true,
+      "pair_id": 400
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market experienced significant volatility rapidly quarter",
+      "is_duplicate": true,
+      "pair_id": 401
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global issue action requires that",
+      "is_duplicate": true,
+      "pair_id": 402
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial truly for business success",
+      "is_duplicate": true,
+      "pair_id": 403
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy really concerns have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 404
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Python is a popular programming language for data science",
+      "is_duplicate": false,
+      "pair_id": 405
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine of is a subset learning artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 406
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 407
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has efficiently increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 408
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction crucial is for business success",
+      "is_duplicate": true,
+      "pair_id": 409
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate change is a pressing global that requires action",
+      "is_duplicate": true,
+      "pair_id": 410
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown fox jumps over efficiently lazy dog",
+      "is_duplicate": true,
+      "pair_id": 411
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 412
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The research study found significant results in rapidly experiment",
+      "is_duplicate": true,
+      "pair_id": 413
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received excellent truly reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 414
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 415
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet revolutionized how we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 416
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "Climate very change is a pressing global issue that requires action",
+      "is_duplicate": true,
+      "pair_id": 417
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy have concerns increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 418
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is popular a programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 419
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is popular programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 420
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The research study found significant results in the very experiment",
+      "is_duplicate": true,
+      "pair_id": 421
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 422
+    },
+    {
+      "text1": "The company reported record profits in the fiscal year",
+      "text2": "The company reported record profits in fiscal year",
+      "is_duplicate": true,
+      "pair_id": 423
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neurons networks are inspired by biological neural",
+      "is_duplicate": true,
+      "pair_id": 424
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced diet for essential are health",
+      "is_duplicate": true,
+      "pair_id": 425
+    },
+    {
+      "text1": "Regular exercise and a balanced diet are essential for health",
+      "text2": "Regular exercise and a balanced truly diet are essential for health",
+      "is_duplicate": true,
+      "pair_id": 426
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a popular programming language data science",
+      "is_duplicate": true,
+      "pair_id": 427
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The new efficiently aims to reduce carbon emissions by 50 percent",
+      "is_duplicate": true,
+      "pair_id": 428
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning must consider sustainability life quality of and",
+      "is_duplicate": true,
+      "pair_id": 429
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "restaurant The received excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 430
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "Space exploration continues to yield fascinating discoveries",
+      "is_duplicate": false,
+      "pair_id": 431
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The internet has revolutionized how we communicate and work",
+      "is_duplicate": false,
+      "pair_id": 432
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "The company reported record profits in the fiscal year",
+      "is_duplicate": false,
+      "pair_id": 433
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received excellent reviews for service its",
+      "is_duplicate": true,
+      "pair_id": 434
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial effectively networks are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 435
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media platforms quite have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 436
+    },
+    {
+      "text1": "Climate change is a pressing global issue that requires action",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 437
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Online education has become increasingly popular and accessible",
+      "is_duplicate": false,
+      "pair_id": 438
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The stock market significant experienced volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 439
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 440
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Space exploration continues to yield fascinating discoveries",
+      "is_duplicate": false,
+      "pair_id": 441
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social really media platforms have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 442
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 443
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online quickly has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 444
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "Data privacy concerns have increased with digital transformation",
+      "is_duplicate": false,
+      "pair_id": 445
+    },
+    {
+      "text1": "The quick brown fox jumps over the lazy dog",
+      "text2": "The quick brown jumps over the lazy dog",
+      "is_duplicate": true,
+      "pair_id": 446
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Social media platforms have changed how we interact with others",
+      "is_duplicate": false,
+      "pair_id": 447
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural networks are inspired biological by neurons",
+      "is_duplicate": true,
+      "pair_id": 448
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "The stock market experienced significant volatility this quarter",
+      "is_duplicate": false,
+      "pair_id": 449
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "Urban planning must consider sustainability and quality of life",
+      "is_duplicate": false,
+      "pair_id": 450
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer crucial is satisfaction for business success",
+      "is_duplicate": true,
+      "pair_id": 451
+    },
+    {
+      "text1": "The research study found significant results in the experiment",
+      "text2": "The study found significant results in the experiment",
+      "is_duplicate": true,
+      "pair_id": 452
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "The conference featured presentations on cutting-edge technology",
+      "is_duplicate": false,
+      "pair_id": 453
+    },
+    {
+      "text1": "Social media platforms have changed how we interact with others",
+      "text2": "Social media effectively have changed how we interact with others",
+      "is_duplicate": true,
+      "pair_id": 454
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The restaurant received rapidly reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 455
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized how we rapidly and work",
+      "is_duplicate": true,
+      "pair_id": 456
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "life planning must consider sustainability and quality of Urban",
+      "is_duplicate": true,
+      "pair_id": 457
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is popular a programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 458
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is a subset efficiently artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 459
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data truly privacy concerns have increased with digital transformation",
+      "is_duplicate": true,
+      "pair_id": 460
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized efficiently we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 461
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online quickly has become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 462
+    },
+    {
+      "text1": "Artificial neural networks are inspired by biological neurons",
+      "text2": "Artificial neural quickly are inspired by biological neurons",
+      "is_duplicate": true,
+      "pair_id": 463
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "is satisfaction Customer crucial for business success",
+      "is_duplicate": true,
+      "pair_id": 464
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 465
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is science popular programming language for data a",
+      "is_duplicate": true,
+      "pair_id": 466
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "efficiently exploration continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 467
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "The received excellent reviews for its service",
+      "is_duplicate": true,
+      "pair_id": 468
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more quite cost-effective",
+      "is_duplicate": true,
+      "pair_id": 469
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 470
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space fascinating continues to yield exploration discoveries",
+      "is_duplicate": true,
+      "pair_id": 471
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The experienced market stock significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 472
+    },
+    {
+      "text1": "Python is a popular programming language for data science",
+      "text2": "Python is a quickly programming language for data science",
+      "is_duplicate": true,
+      "pair_id": 473
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources becoming more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 474
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "The research study found significant results in the experiment",
+      "is_duplicate": false,
+      "pair_id": 475
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "Regular exercise and a balanced diet are essential for health",
+      "is_duplicate": false,
+      "pair_id": 476
+    },
+    {
+      "text1": "Customer satisfaction is crucial for business success",
+      "text2": "Customer satisfaction is crucial for efficiently success",
+      "is_duplicate": true,
+      "pair_id": 477
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more",
+      "is_duplicate": true,
+      "pair_id": 478
+    },
+    {
+      "text1": "The restaurant received excellent reviews for its service",
+      "text2": "Climate change is a pressing global issue that requires action",
+      "is_duplicate": false,
+      "pair_id": 479
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources are becoming more",
+      "is_duplicate": true,
+      "pair_id": 480
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online has education become increasingly popular and accessible",
+      "is_duplicate": true,
+      "pair_id": 481
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly accessible and popular",
+      "is_duplicate": true,
+      "pair_id": 482
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "truly Machine learning is a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 483
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular and effectively",
+      "is_duplicate": true,
+      "pair_id": 484
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The efficiently featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 485
+    },
+    {
+      "text1": "Urban planning must consider sustainability and quality of life",
+      "text2": "Urban planning efficiently consider sustainability and quality of life",
+      "is_duplicate": true,
+      "pair_id": 486
+    },
+    {
+      "text1": "Space exploration continues to yield fascinating discoveries",
+      "text2": "Space truly exploration continues to yield fascinating discoveries",
+      "is_duplicate": true,
+      "pair_id": 487
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The restaurant received excellent reviews for its service",
+      "is_duplicate": false,
+      "pair_id": 488
+    },
+    {
+      "text1": "Data privacy concerns have increased with digital transformation",
+      "text2": "Data privacy concerns have increased quickly digital transformation",
+      "is_duplicate": true,
+      "pair_id": 489
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Machine learning is a subset of artificial intelligence",
+      "is_duplicate": false,
+      "pair_id": 490
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The communicate has revolutionized how we internet and work",
+      "is_duplicate": true,
+      "pair_id": 491
+    },
+    {
+      "text1": "Machine learning is a subset of artificial intelligence",
+      "text2": "Machine learning is really a subset of artificial intelligence",
+      "is_duplicate": true,
+      "pair_id": 492
+    },
+    {
+      "text1": "Online education has become increasingly popular and accessible",
+      "text2": "Online education has become increasingly popular truly and accessible",
+      "is_duplicate": true,
+      "pair_id": 493
+    },
+    {
+      "text1": "The new policy aims to reduce carbon emissions by 50 percent",
+      "text2": "Python is a popular programming language for data science",
+      "is_duplicate": false,
+      "pair_id": 494
+    },
+    {
+      "text1": "The stock market experienced significant volatility this quarter",
+      "text2": "The experienced market stock significant volatility this quarter",
+      "is_duplicate": true,
+      "pair_id": 495
+    },
+    {
+      "text1": "The internet has revolutionized how we communicate and work",
+      "text2": "The internet has revolutionized effectively we communicate and work",
+      "is_duplicate": true,
+      "pair_id": 496
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable more sources are becoming energy cost-effective",
+      "is_duplicate": true,
+      "pair_id": 497
+    },
+    {
+      "text1": "Renewable energy sources are becoming more cost-effective",
+      "text2": "Renewable energy sources becoming are more cost-effective",
+      "is_duplicate": true,
+      "pair_id": 498
+    },
+    {
+      "text1": "The conference featured presentations on cutting-edge technology",
+      "text2": "The very conference featured presentations on cutting-edge technology",
+      "is_duplicate": true,
+      "pair_id": 499
+    }
+  ]
+}

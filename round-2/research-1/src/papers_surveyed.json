@@ -1,0 +1,112 @@
+[
+  {
+    "title": "On the resemblance and containment of documents",
+    "authors": ["Andrei Z. Broder"],
+    "venue": "Proceedings of the Compression and Complexity of Sequences",
+    "year": 1997,
+    "url": "https://www.cs.princeton.edu/courses/archive/spring13/cos598C/broder97resemblance.pdf",
+    "method_summary": "Introduces MinHash for estimating set resemblance and containment. Documents are represented as sets of shingles (contiguous subsequences of tokens). Uses random sampling to estimate Jaccard similarity efficiently.",
+    "features_used": {
+      "word_length": false,
+      "word_frequency": false,
+      "POS": false,
+      "other_cognitive": "",
+      "embeddings": false
+    },
+    "representation": "bag-of-words",
+    "alignment_method": "none",
+    "task": "duplicate-detection",
+    "dataset": "30M web documents",
+    "text_length": "long",
+    "relevance_score": 4,
+    "notes": "Set-based similarity, not sequence-based. Uses shingles (k-grams). Limitation for short text: shingle sets may be too sparse for meaningful similarity estimation."
+  },
+  {
+    "title": "From Word Embeddings To Document Distances",
+    "authors": ["Matt Kusner", "Yu Sun", "Nicholas I. Kolkin", "Kilian Q. Weinberger"],
+    "venue": "ICML 2015",
+    "year": 2015,
+    "url": "https://proceedings.mlr.press/v37/kusnerb15.html",
+    "method_summary": "Introduces Word Mover's Distance (WMD) - a document distance metric based on word2vec embeddings. Measures minimum cumulative distance that words from one document need to 'travel' to match another document. Cast as Earth Mover's Distance (optimal transport problem).",
+    "features_used": {
+      "word_length": false,
+      "word_frequency": false,
+      "POS": false,
+      "other_cognitive": "",
+      "embeddings": true
+    },
+    "representation": "bag-of-words (weighted point cloud of embeddings)",
+    "alignment_method": "earth-mover-distance (optimal transport)",
+    "task": "similarity",
+    "dataset": "Eight document classification datasets",
+    "text_length": "both",
+    "relevance_score": 4,
+    "notes": "Uses embeddings (not cognitive features). O(n^2) complexity due to optimal transport. Does not use DTW. Incorporates semantic similarity via word2vec but requires pre-trained embeddings."
+  },
+  {
+    "title": "Paraphrase Identification as Probabilistic Quasi-Synchronous Recognition",
+    "authors": ["Dipanjan Das", "Noah A. Smith"],
+    "venue": "ACL 2009",
+    "year": 2009,
+    "url": "http://www.cs.cmu.edu/~nasmith/papers/das+smith.acl09.pdf",
+    "method_summary": "Uses quasi-synchronous dependency grammars to model paraphrase relationships. Incorporates both syntax (dependency trees) and lexical semantics (WordNet). Uses product of experts to combine with lexical overlap features.",
+    "features_used": {
+      "word_length": false,
+      "word_frequency": false,
+      "POS": true,
+      "other_cognitive": "dependency parse trees, WordNet semantic relations",
+      "embeddings": false
+    },
+    "representation": "sequence (dependency trees)",
+    "alignment_method": "quasi-synchronous grammar alignment",
+    "task": "paraphrase-detection",
+    "dataset": "Microsoft Research Paraphrase Corpus",
+    "text_length": "short",
+    "relevance_score": 3,
+    "notes": "Uses POS and syntax but not as simple sequences. More complex quasi-synchronous grammars. Not using cognitive load indicators (word length, frequency). Not using DTW."
+  },
+  {
+    "title": "On Improving the Accuracy of Readability Classification using Insights from Second Language Acquisition",
+    "authors": ["Sowmya Vajjala", "Detmar Meurers"],
+    "venue": "BEA Workshop at NAACL 2012",
+    "year": 2012,
+    "url": "https://aclanthology.org/W12-2019.pdf",
+    "method_summary": "Uses lexical and syntactic features (word n-grams, POS n-grams, type-token ratio, syntactic complexity measures from SLA research) for readability assessment. Features are aggregated per document, not represented as sequences.",
+    "features_used": {
+      "word_length": true,
+      "word_frequency": true,
+      "POS": true,
+      "other_cognitive": "syntactic complexity, type-token ratio, vocabulary depth",
+      "embeddings": false
+    },
+    "representation": "bag-of-words (aggregated features)",
+    "alignment_method": "none",
+    "task": "classification (readability)",
+    "dataset": "WeeBit (WeeklyReader + BBC Bitesize)",
+    "text_length": "long",
+    "relevance_score": 3,
+    "notes": "Uses word length, frequency, and POS - but as aggregated features for classification, not as sequences for similarity. Not using DTW or sequence alignment."
+  },
+  {
+    "title": "String distances for near-duplicate detection",
+    "authors": ["Iulia Danaila", "Liviu P. Dinu", "Vlad Niculae", "Octavia-Maria Sulea"],
+    "venue": "Unknown (PDF from Univ. Bucharest)",
+    "year": 2012,
+    "url": "https://nlp.unibuc.ro/papers/danaila12.pdf",
+    "method_summary": "Compares Rank distance and Smith-Waterman distance with Levenshtein distance for near-duplicate detection. Uses string edit distances, not cognitive features.",
+    "features_used": {
+      "word_length": false,
+      "word_frequency": false,
+      "POS": false,
+      "other_cognitive": "",
+      "embeddings": false
+    },
+    "representation": "sequence (character or word)",
+    "alignment_method": "Smith-Waterman (local alignment), Rank distance, Levenshtein",
+    "task": "duplicate-detection",
+    "dataset": "IT articles, news articles",
+    "text_length": "both",
+    "relevance_score": 3,
+    "notes": "Uses sequence alignment (Smith-Waterman) but not on cognitive features. Traditional string distances. Not using cognitive load indicators."
+  }
+]
